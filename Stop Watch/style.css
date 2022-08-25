@@ -1,0 +1,46 @@
+*{
+       margin: 0;
+       padding: 0;
+       box-sizing: border-box;
+}
+body{
+       background-color: rgb(111, 172, 19);
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       height: 100vh;
+}
+.container{
+       background-color: rgba(0, 134, 67, 0.584);
+       width: 400px;
+       height: 300px;
+       color: #fff;
+       border-radius: 12px;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+}
+
+.btn-tools button{
+       border: none;
+       padding: .7rem 1.2rem;
+       margin: 1rem .2rem;
+       border-radius: 3px;
+       cursor: pointer;
+       color: rgb(253, 253, 253);
+}
+
+#startStopBtn{
+       background-color: rgb(54, 226, 54);
+}
+#resetBtn{
+       background-color: crimson;
+}
+/* #play:hover{
+       background-color: rgb(20, 177, 20);
+
+}
+#reset:hover{
+       background-color: rgb(174, 28, 28);
+} */
